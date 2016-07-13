@@ -12,39 +12,35 @@
       method="POST">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="control-group form-group">
-                                    <input type="text" class="form-control" placeholder="Vaše ime *" id="name">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Vaše ime *" name="name">
                                 </div>
-                                <div class="control-group form-group">
-                                    <input type="email" class="form-control" placeholder="Vaš email *" id="email">
-                                    
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Vaš email *" name="email">
                                 </div>
-                                <div class="control-group form-group">
-                                    <input type="tel" class="form-control" placeholder="+ tel *" id="phone">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Subjekt *" name="_subject">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="control-group form-group">
-                                    <textarea class="form-control" placeholder="Vaša poruka *" id="message" ></textarea>
-                                    
+                                    <textarea class="form-control" placeholder="Vaša poruka *" name="message" rows="3"></textarea>
                                 </div>
                             </div>
-                            <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <input type="text" name="_gotcha" style="display:none" />
-                  <input type="hidden" name="_next" value="http://starocrnogorskivremeplov.github.io" />
-                                <button type="submit" class="btn btn-xl">Pošalji poruku</button>
+                                 <input type="text" name="_gotcha" style="display:none" />
+                  					<input type="hidden" name="_next" value="http://codeyourday.github.io/thanks" />
+                  						<button type="submit" value="Send" class="btn btn-xl">Pošalji poruku</button>
                             </div>
                         </div>
                     </form>
-                    <script>
-    var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'starocrnogorskivremeplov' + '@' + 'gmail' + '.' + 'com');
-</script>
+                      <script>
+    					var contactform =  document.getElementById('contactform');
+    						contactform.setAttribute('action', '//formspree.io/' + 'starocrnogorskivremeplov' + '@' + 'gmail' + '.' + 'com');
+						</script>
                 </div>
             </div>
         </div>
     </section>
-
 
