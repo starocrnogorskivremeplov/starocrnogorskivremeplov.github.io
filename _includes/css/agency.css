@@ -283,8 +283,8 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
-    font-style: italic;
+    font-size: 18px;
+/*     font-style: italic; */
     line-height: 22px;
 }
 
@@ -307,7 +307,6 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 25px;
-        font-style: italic;
         line-height: 40px;
     }
 
@@ -655,7 +654,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-/*     background-image: url('{{ site.baseurl }}/img/map-image.png'); */
+    background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
